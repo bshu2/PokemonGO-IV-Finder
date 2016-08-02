@@ -18,7 +18,11 @@ pip install git+https://github.com/tejado/pgoapi.git
 python ivfinder.py -a AUTH_SERVICE -u USERNAME [-p PASSWORD] -lat LATITUDE -long LONGITUDE [--reset]
 ```
 AUTH_SERVICE must be either ptc or google
+
 USERNAME is the username of the account you are logging in with
+
 PASSWORD is the corresponding password to that username (if ommitted, you will be prompted to enter the password)
+
 LATITUDE and LONGITUDE represent the location where you are to spawn
+
 Include `--reset` to reset the names of all Pokemon to their original names
